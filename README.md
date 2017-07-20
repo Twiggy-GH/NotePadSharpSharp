@@ -1,4 +1,4 @@
 # NotePadSharpSharp
 Internal use
 
-Conversion of Notepad utility for the Dashboard to C#.
+Conversion of Notepad utility created by Colin L. in Java for the Dashboard to C#.
