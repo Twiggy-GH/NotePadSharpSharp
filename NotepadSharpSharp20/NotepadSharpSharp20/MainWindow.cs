@@ -24,8 +24,8 @@ namespace NotepadSharpSharp20
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            Launcher.forms[1].Hide();
-            Launcher.forms[0].Show();
+            Launcher.forms[1].Hide(); //Hide MainWindow
+            Launcher.forms[0].Show(); //Show Options
         }
 
         private void btnHelp_Click(object sender, EventArgs e)
