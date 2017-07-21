@@ -48,6 +48,7 @@ namespace NotepadSharpSharp20
 
             //to show only the first form on start
             forms[0].Show();
+            INIParser.checkINI();
         }
     }
 }

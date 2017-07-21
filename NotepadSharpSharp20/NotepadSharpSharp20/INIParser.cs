@@ -32,6 +32,7 @@ namespace NotepadSharpSharp20
         public static void genINI(string fileLocation)
         {
             //Switch over to Try Catch blocks to see if file exists.
+            //If no config.ini file is found, create one with default parameters.
             if (!File.Exists("config.ini"))
             {
                 IniData data = new IniData();
@@ -48,6 +49,7 @@ namespace NotepadSharpSharp20
 
         public static void readINI()
         {
+
             if (File.Exists("config.ini"))
             {
                 IniData data = new IniData();
@@ -56,10 +58,14 @@ namespace NotepadSharpSharp20
 
                 data = parser.ReadFile("config.ini");
                 fileLocation = data["General"]["fileLocation"];
+
+                // Check to see if fileLocation key in config.ini file is blank.
+                // If fileLocation key is blank, show the MainWindow at launch instead of Options.
                 if (!String.IsNullOrWhiteSpace(fileLocation))
                 {
                     Console.WriteLine("Config file found with fileLocation previously set. Launching notepad.");
-                    //Launcher.forms[1].Show();
+                    Launcher.forms[1].Show();
+                    Launcher.forms[0].Hide();
                 }
                 else
                 {
@@ -70,6 +76,7 @@ namespace NotepadSharpSharp20
 
         public static void editINI(string fileLocation)
         {
+            // Edits the fileLocation key in config.ini with the text file location.
             IniData modifiedIniData = new IniData();
             FileIniDataParser parser = new FileIniDataParser();
             modifiedIniData = parser.ReadFile("config.ini");

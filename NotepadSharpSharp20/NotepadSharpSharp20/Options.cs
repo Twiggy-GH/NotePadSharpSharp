@@ -17,7 +17,6 @@ namespace NotepadSharpSharp20
         public Options()
         {
             InitializeComponent();
-            INIParser.checkINI();
         }
 
         private void btnLaunch_Click(object sender, EventArgs e)
