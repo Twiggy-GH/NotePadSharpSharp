@@ -1,0 +1,12 @@
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\bin\Debug\NotepadSharpSharp20.exe.config
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\bin\Debug\NotepadSharpSharp20.exe
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\bin\Debug\NotepadSharpSharp20.pdb
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.Options.resources
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.Properties.Resources.resources
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.csproj.GenerateResource.Cache
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.exe
+c:\users\mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.pdb
+C:\Users\Mark\Documents\Visual Studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.csprojResolveAssemblyReference.cache
+C:\Users\Mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\obj\Debug\NotepadSharpSharp20.MainWindow.resources
+C:\Users\Mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\bin\Debug\INIFileParser.dll
+C:\Users\Mark\documents\visual studio 2017\Projects\NotepadSharpSharp20\NotepadSharpSharp20\bin\Debug\INIFileParser.xml
